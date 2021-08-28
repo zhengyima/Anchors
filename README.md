@@ -8,7 +8,7 @@ including the following two parts:
 - Fine-tuning on MS MARCO Document Ranking Datasets 🌀
 
 ## Preinstallation
-First, prepare a **Python3** environment, and run the following command:
+First, prepare a **Python3** environment, and run the following commands:
 ```
   git clone https://github.com/zhengyima/anchors.git anchors
   cd anchors
