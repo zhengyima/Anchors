@@ -15,7 +15,7 @@ First, prepare a **Python3** environment, and run the following command:
   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-Then, you should download the BERT (bert-base-uncased) model checkpoint in format of huggingface transformers, and save them in a directory ```BERT_MODEL_PATH```. you can download them from the huggingface official [model zoo](https://huggingface.co/bert-base-uncased/tree/main), or [Tsinghua mirror](https://mirrors.tuna.tsinghua.edu.cn/hugging-face-models/).
+Besides, you should download the BERT (bert-base-uncased) model checkpoint in format of huggingface transformers, and save them in a directory ```BERT_MODEL_PATH```. you can download them from the huggingface official [model zoo](https://huggingface.co/bert-base-uncased/tree/main), or [Tsinghua mirror](https://mirrors.tuna.tsinghua.edu.cn/hugging-face-models/).
 
 ## Pre-training on Raw Corpus
 
