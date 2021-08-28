@@ -7,7 +7,7 @@ including the following two parts:
 - Pre-training on corpus based on hyperlinks in our paper ✅
 - Fine-tuning on MS MARCO Document Ranking Datasets 🌀
 
-# Preinstallation
+## Preinstallation
 First, install these packages in your **Python3** environment:
 ```
   git clone https://github.com/zhengyima/anchors.git anchors
@@ -17,9 +17,9 @@ First, install these packages in your **Python3** environment:
 
 Then, you should download the BERT (bert-base-uncased) model checkpoint in format of huggingface transformers, and save them in a directory ```BERT_MODEL_PATH```. you can download them from the huggingface official [model zoo](https://huggingface.co/bert-base-uncased/tree/main), or [Tsinghua mirror](https://mirrors.tuna.tsinghua.edu.cn/hugging-face-models/).
 
-# Pre-training on Raw Corpus
+## Pre-training on Raw Corpus
 
-## Prepare the Corpus Data
+### Prepare the Corpus Data
 
 The corpus data should have one passage (in JSON format) per line, with the anchor texts saved in an array. e.g.
 ```
@@ -44,7 +44,7 @@ The corpus data should have one passage (in JSON format) per line, with the anch
 For your convenience, we provide the demo corpus file ```data/corpus/demo_data.txt```. You can refer to the demo data to generate the pre-trained corpus, such as from [Wikipedia dump](https://dumps.wikimedia.org/enwiki/).
 
 
-## Generate Pre-training Samples From the Corpus 
+### Generate Pre-training Samples From the Corpus 
 
 Since the process of generating the pre-training samples are complex, with a long pipeline of four pre-training tasks. We build a shell ```shells/gendata.sh``` to complete the whole process. If you are interested in the detailed process, you can refer to the shell. If you just want to run the code, you can run the following:
 ```
@@ -56,13 +56,13 @@ Since the process of generating the pre-training samples are complex, with a lon
 
 After running ```gendata.sh``` success, you will get the pre-training data stored in ```DATA_PATH/merged/```.
 
-## Running Pre-training
+### Running Pre-training
 ```
  export PERTRAIN_OUTPUT_DIR=/path/to/output_path
  bash shells/pretrain.sh
 ```
 
-# Fine-tuning on MS MARCO
+## Fine-tuning on MS MARCO
 
 The process of fine-tuning is more complex than pre-training 💤
 
@@ -71,7 +71,7 @@ Thus, the author decides to pack and clean the fine-tuning part when he is free,
 **Notes**: Since the pre-training of our model is completed in the standard manner of huggingface. So, you can apply the output checkpoints of pre-training into any down-stream method, just like using ```bert-base-uncased```. 
 
 
-# Citations
+## Citations
 If you use the code and datasets, please cite the following paper:  
 
 ```
@@ -91,7 +91,7 @@ If you use the code and datasets, please cite the following paper:
 }
 ```
 
-# Links
+## Links
 - [Wikipedia dump](https://dumps.wikimedia.org/enwiki/)
 - [WikiExtractor](https://github.com/attardi/wikiextractor)
 - [MS MARCO Document Ranking](https://github.com/microsoft/MSMARCO-Document-Ranking)
