@@ -84,15 +84,10 @@ If you use the code and datasets, please cite the following paper:
                Zhao Cao and
                Ji{-}Rong Wen},
   title     = {Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need},
-  journal   = {CoRR},
-  volume    = {abs/2108.09346},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2108.09346},
-  archivePrefix = {arXiv},
-  eprint    = {2108.09346},
-  timestamp = {Fri, 27 Aug 2021 15:02:29 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-09346.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  booktitle = {{CIKM} '21: The 30th {ACM} International Conference on Information
+               and Knowledge Management, Virtual Event, QLD, Australia, November 1-5, 2021},
+  publisher = {{ACM}},
+  year      = {2021}
 }
 ```
 
