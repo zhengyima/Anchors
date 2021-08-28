@@ -4,7 +4,7 @@ Source code of CIKM2021 Long Paper:
 [Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need](https://arxiv.org/abs/2108.09346),
 
 including the following two parts: 
-- Pre-training on corpus based on hyperlinks in our paper ✅
+- Pre-training on corpus based on hyperlinks ✅
 - Fine-tuning on MS MARCO Document Ranking Datasets 🌀
 
 ## Preinstallation
