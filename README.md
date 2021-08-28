@@ -71,7 +71,7 @@ Thus, the author decides to pack and clean the fine-tuning part when he is free,
 **Notes**: Since the pre-training of our model is completed in the standard manner of huggingface. So, you can apply the output checkpoints of pre-training into any down-stream method, just like using ```bert-base-uncased```. 
 
 
-## Citations
+# Citations
 If you use the code and datasets, please cite the following paper:  
 
 ```
