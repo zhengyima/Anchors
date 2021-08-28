@@ -44,7 +44,7 @@ The corpus data should have one passage (in JSON format) per line, with the anch
 For your convenience, we provide the demo corpus file ```data/corpus/demo_data.txt```. You can refer to the demo data to generate the pre-trained corpus, such as from [Wikipedia dump](https://dumps.wikimedia.org/enwiki/).
 
 
-### Generate Pre-training Samples From the Corpus 
+### Generate Pre-training Samples from the Corpus 
 
 The process of generating the pre-training samples are complex, which has a long pipeline including four pre-training tasks. Thus, we build a shell ```shells/gendata.sh``` to complete the whole process. If you are interested in the detailed process, you can refer to the shell. If you just want to run the code, you can run the following:
 ```
