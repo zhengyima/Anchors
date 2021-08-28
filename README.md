@@ -46,7 +46,7 @@ For your convenience, we provide the demo corpus file ```data/corpus/demo_data.t
 
 ### Generate Pre-training Samples From the Corpus 
 
-Since the process of generating the pre-training samples are complex, with a long pipeline of four pre-training tasks. We build a shell ```shells/gendata.sh``` to complete the whole process. If you are interested in the detailed process, you can refer to the shell. If you just want to run the code, you can run the following:
+The process of generating the pre-training samples are complex, which has a long pipeline including four pre-training tasks. Thus, we build a shell ```shells/gendata.sh``` to complete the whole process. If you are interested in the detailed process, you can refer to the shell. If you just want to run the code, you can run the following:
 ```
  export CORPUS_DATA=./data/corpus/demo_data.txt
  export DATA_PATH=./data/
