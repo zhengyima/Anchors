@@ -70,6 +70,31 @@ Thus, the author decides to pack and clean the fine-tuning part when he is free,
 
 **Notes**: Since the pre-training of our model is completed in the standard manner of huggingface. So, you can apply the output checkpoints of pre-training into any down-stream method, just like using ```bert-base-uncased```. 
 
+
+## Citations
+If you use the code and datasets, please cite the following paper:  
+```
+@article{DBLP:journals/corr/abs-2108-09346,
+  author    = {Zhengyi Ma and
+               Zhicheng Dou and
+               Wei Xu and
+               Xinyu Zhang and
+               Hao Jiang and
+               Zhao Cao and
+               Ji{-}Rong Wen},
+  title     = {Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need},
+  journal   = {CoRR},
+  volume    = {abs/2108.09346},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.09346},
+  archivePrefix = {arXiv},
+  eprint    = {2108.09346},
+  timestamp = {Fri, 27 Aug 2021 15:02:29 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-09346.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
 # Links
 - [Wikipedia dump](https://dumps.wikimedia.org/enwiki/)
 - [WikiExtractor](https://github.com/attardi/wikiextractor)
