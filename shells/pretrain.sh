@@ -1,0 +1,11 @@
+python pretrain/run_mlm_my.py \
+		--model_name_or_path $BERT_MODEL_PATH \
+		--train_file $DATA_PATH/merged/epoch_0.json \
+		--do_train \
+		--per_device_train_batch_size 4 \
+		--num_train_epochs 1 \
+		--dataloader_num_workers 8 \
+		--save_steps 10000 \
+		--output_dir $PERTRAIN_OUTPUT_DIR \
+		--dataset_script_dir ./data_scripts \
+		--dataset_cache_dir /tmp/anchors_cache 
