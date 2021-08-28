@@ -1,4 +1,4 @@
-# anchors
+# Anchors
 Source code of CIKM2021 Long Paper: 
 
 [Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need](https://arxiv.org/abs/2108.09346),
