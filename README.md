@@ -96,7 +96,7 @@ If you use the code and datasets, please cite the following paper:
 - [WikiExtractor](https://github.com/attardi/wikiextractor)
 - [MS MARCO Document Ranking](https://github.com/microsoft/MSMARCO-Document-Ranking)
 - [TREC 2019 Deep Learning](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019.html)
-- [Pytorch](https://pytorch.org)
+- [PyTorch](https://pytorch.org)
 - [Huggingface Transformers](https://huggingface.co/)
 
 
